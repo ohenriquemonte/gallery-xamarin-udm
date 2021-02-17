@@ -113,6 +113,33 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LogoTexto.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-60x60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%401x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-20x20%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-29x29%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-40x40%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-76x76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Icone.appiconset\ItunesArtwork%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\logo.png" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\logo%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\logo%403x.png" />
+    <ImageAsset Include="Assets.xcassets\LogoTexto.imageset\logotexto.png" />
+    <ImageAsset Include="Assets.xcassets\LogoTexto.imageset\logotexto%402x.png" />
+    <ImageAsset Include="Assets.xcassets\LogoTexto.imageset\logotexto%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -123,9 +150,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
-    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.9" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.22.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -133,5 +160,10 @@
       <Project>{AFF22ABA-A654-44FE-8297-93C4DB69CB56}</Project>
       <Name>AppGallery</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\Icone.appiconset\" />
+    <Folder Include="Assets.xcassets\Logo.imageset\" />
+    <Folder Include="Assets.xcassets\LogoTexto.imageset\" />
   </ItemGroup>
 </Project>
