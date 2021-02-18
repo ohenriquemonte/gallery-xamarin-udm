@@ -19,5 +19,6 @@
     <Folder Include="XamarinForms\Paginas\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeConteudo\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeNavegacao\" />
+    <Folder Include="XamarinForms\Paginas\Modal\" />
   </ItemGroup>
 </Project>
