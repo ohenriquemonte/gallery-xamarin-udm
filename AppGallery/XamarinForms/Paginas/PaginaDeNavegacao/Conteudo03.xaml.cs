@@ -11,5 +11,16 @@ namespace AppGallery.XamarinForms.Paginas.PaginaDeNavegacao
 		{
 			InitializeComponent();
 		}
+
+		// Desabilita botão de voltar do dispositivo
+		protected override bool OnBackButtonPressed()
+		{
+			return true;
+		}
+
+		void VoltarParaPaginaAnterior(System.Object sender, System.EventArgs e)
+		{
+			Navigation.PopAsync();
+		}
 	}
 }

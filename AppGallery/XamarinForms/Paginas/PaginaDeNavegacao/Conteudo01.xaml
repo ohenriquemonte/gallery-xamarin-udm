@@ -3,6 +3,7 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label Text="Pagina de Conteúdo 01" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+			<Button Text="PushAsync - Página 02" Clicked="AbrirPagina02" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
