@@ -8,11 +8,11 @@
 	xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
 	android:TabbedPage.ToolbarPlacement="Bottom"
 	x:Class="AppGallery.XamarinForms.Paginas.PaginaDeAbas.Abas">
-	<!--<ContentPage Title="Tab 1">
+	<ContentPage Title="Tab 1">
 		<StackLayout>
 			<Label Text="Página 01" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
 		</StackLayout>
-	</ContentPage>-->
+	</ContentPage>
 
 	<ContentPage Title="Tab 2" IconImageSource="logo.png">
 		<StackLayout>
@@ -20,9 +20,9 @@
 		</StackLayout>
 	</ContentPage>
 
-	<!--<ContentPage Title="Tab 3">
+	<ContentPage Title="Tab 3">
 		<StackLayout>
 			<Label Text="Página 03" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
 		</StackLayout>
-	</ContentPage>-->
+	</ContentPage>
 </TabbedPage>

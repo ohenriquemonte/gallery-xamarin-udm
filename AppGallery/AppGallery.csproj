@@ -23,5 +23,6 @@
     <Folder Include="XamarinForms\Paginas\PaginaDeCarrossel\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeAbas\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeMenuLateral\" />
+    <Folder Include="AppBase\" />
   </ItemGroup>
 </Project>

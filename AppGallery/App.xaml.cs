@@ -30,7 +30,8 @@ namespace AppGallery
 			//var pagina = new MasterDetailPage(); // obsoleta
 			//var pagina = new FlyoutPage(); // mais recente v5.0.0
 
-			var pagina = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
+			//var pagina = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
+			var pagina = new AppBase.Menu();
 
 			MainPage = pagina;
 		}
