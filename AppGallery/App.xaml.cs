@@ -23,8 +23,10 @@ namespace AppGallery
 
 			//pagina.CurrentPage = pagina.Children[1] - Caso queira iniciar com uma página diferente da primeira adicionada
 
-			var pagina = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
-			
+			//var pagina = new XamarinForms.Paginas.PaginaDeCarrossel.Carrossel();
+
+			var pagina = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+
 			MainPage = pagina;
 		}
 

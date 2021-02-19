@@ -21,5 +21,6 @@
     <Folder Include="XamarinForms\Paginas\PaginaDeNavegacao\" />
     <Folder Include="XamarinForms\Paginas\Modal\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeCarrossel\" />
+    <Folder Include="XamarinForms\Paginas\PaginaDeAbas\" />
   </ItemGroup>
 </Project>
