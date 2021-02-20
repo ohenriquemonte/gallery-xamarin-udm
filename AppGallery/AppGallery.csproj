@@ -26,5 +26,6 @@
     <Folder Include="AppBase\" />
     <Folder Include="XamarinForms\XamarinLayouts\" />
     <Folder Include="XamarinForms\XamarinLayouts\PilhaLayout\" />
+    <Folder Include="XamarinForms\XamarinLayouts\GradeLayout\" />
   </ItemGroup>
 </Project>
