@@ -24,5 +24,7 @@
     <Folder Include="XamarinForms\Paginas\PaginaDeAbas\" />
     <Folder Include="XamarinForms\Paginas\PaginaDeMenuLateral\" />
     <Folder Include="AppBase\" />
+    <Folder Include="XamarinForms\XamarinLayouts\" />
+    <Folder Include="XamarinForms\XamarinLayouts\PilhaLayout\" />
   </ItemGroup>
 </Project>

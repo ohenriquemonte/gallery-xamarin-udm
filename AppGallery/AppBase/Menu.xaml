@@ -15,6 +15,9 @@
 				<Button Text="CarouselPage" Clicked="AbrirCarouselPage" />
 				<Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage" />
 				<Button Text="Modal" Clicked="AbrirPaginaModal" />
+
+				<Label Text="Layouts" />
+				<Button Text="StackLayout" Clicked="AbrirStackLayout" />
 			</StackLayout>
 		</ContentPage>
 	</MasterDetailPage.Master>

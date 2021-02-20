@@ -47,5 +47,11 @@ namespace AppGallery.AppBase
 			((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Paginas.Modal.Conteudo01();
 			((MasterDetailPage)App.Current.MainPage).IsPresented = false;
 		}
+
+		void AbrirStackLayout(System.Object sender, System.EventArgs e)
+		{
+			((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.XamarinLayouts.PilhaLayout.Pilha();
+			((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+		}
 	}
 }
