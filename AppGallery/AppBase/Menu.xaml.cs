@@ -59,5 +59,11 @@ namespace AppGallery.AppBase
 			((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.XamarinLayouts.GradeLayout.Grade();
 			((MasterDetailPage)App.Current.MainPage).IsPresented = false;
 		}
+
+		void AbrirAbsolute(System.Object sender, System.EventArgs e)
+		{
+			((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.XamarinLayouts.AbsolutoLayout.Absoluto();
+			((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+		}
 	}
 }

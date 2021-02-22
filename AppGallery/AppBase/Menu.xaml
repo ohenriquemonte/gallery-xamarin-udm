@@ -19,6 +19,7 @@
 				<Label Text="Layouts" />
 				<Button Text="StackLayout" Clicked="AbrirStackLayout" />
 				<Button Text="Grid" Clicked="AbrirGrid" />
+				<Button Text="AbsoluteLayout" Clicked="AbrirAbsolute" />
 			</StackLayout>
 		</ContentPage>
 	</MasterDetailPage.Master>
