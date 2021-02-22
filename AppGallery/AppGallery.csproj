@@ -28,5 +28,6 @@
     <Folder Include="XamarinForms\XamarinLayouts\PilhaLayout\" />
     <Folder Include="XamarinForms\XamarinLayouts\GradeLayout\" />
     <Folder Include="XamarinForms\XamarinLayouts\AbsolutoLayout\" />
+    <Folder Include="XamarinForms\XamarinLayouts\RelativoLayout\" />
   </ItemGroup>
 </Project>
